@@ -34,3 +34,43 @@ body{
     border: none;
     border-radius: 41px;
 }
+
+/* products collection style */
+
+
+.all-collection{
+    padding: 15px;
+    width: 329px;
+    height: 476px;
+    background: #FFFFFF;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+}
+.products-name h2{
+    font-weight: 500;
+    font-size: 28px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.products-image img{
+width: 100%;
+}
+.products-price h3{
+    margin-top: 6px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.products-ratting{
+    margin-bottom: 0px;
+}
+
+.products-info{
+    
+}
+
+.products-info p{
+    margin: 0;
+}
