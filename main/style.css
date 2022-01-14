@@ -3,6 +3,8 @@
 /* font */
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 5%;
+    padding: 0;
 }
 
 
@@ -37,8 +39,19 @@ body{
 
 /* products collection style */
 
+.all-products h2{
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 100px;
+}
 
+.collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 .all-collection{
+    margin-bottom: 40px;
     padding: 15px;
     width: 329px;
     height: 476px;
