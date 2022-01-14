@@ -4,3 +4,33 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+
+/* header style */
+.header-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.hader-info{
+    width: 582px;
+    height: 270px;
+}
+
+.hader-info h1{
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.header-button{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 41px;
+}
