@@ -132,7 +132,7 @@ width: 100%;
 }
 
 .section-title h2{
-    transition: .3s linear;
+    /* transition: 0.3s linear; */
 }
 
 .section-title h2:hover{
@@ -217,8 +217,9 @@ footer{
     }
 
     .header-images img{
-        width: 100%;
-        /* height: 200px; */
+        padding-top: 70px;
+        width: 70%;
+        
     }
     
 
