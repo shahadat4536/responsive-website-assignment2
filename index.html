@@ -10,7 +10,7 @@
     <!-- style sheet -->
     <link rel="stylesheet" href="./main/style.css">
     <link rel="stylesheet" href="./main/nav.css">
-    <link rel="stylesheet" href="./main/tablet.css">
+    <link rel="stylesheet" href="./main/responsiv.css">
 </head>
 
 <body>
@@ -22,12 +22,26 @@
             </div>
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>Products</li>
-                    <li>Sign up</li>
-                    <li>Log In</li>
-                    <li><i class="fas fa-search"></i></li>
-                    <li><i class="fas fa-shopping-cart"></i></li>
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">Products</a>
+                    </li>
+                    <li>
+                        <a href="">Sign up</a>
+                    </li>
+                    <li>
+                        <a href="">Log In</a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fas fa-search"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fas fa-shopping-cart"></i>
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </section>
@@ -41,7 +55,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem vestibulum sed scelerisque eros. Lectus
                     faucibus.</p>
 
-                <a class="header-button" target="_blank" href="">
+                <a class="primary-button" target="_blank" href="">
                     Preebook now <i class="fas fa-arrow-right"></i>
                 </a>
                 <!-- <button class="header-button">
@@ -374,8 +388,25 @@
         </section>
         <!-- products collection end -->
 
-        <!-- product article -->
-
+        <!-- contact-->
+        <section id="contact">
+            <div class="section-title">
+                <h2>Contact</h2>
+            </div>
+            <div class="contact">
+                <div class="contact-left">
+                    <img src="./images/contact.png" alt="">
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" placeholder="Your Name" class="text-field">
+                        <input type="email" placeholder="Your Email" class="text-field">
+                        <textarea placeholder="Your Message" class="text-field" id="" cols="30" rows="10"></textarea>
+                        <button class="primary-button">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
 
         <!-- footer start -->
         <section class="footer">
