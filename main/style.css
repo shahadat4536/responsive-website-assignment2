@@ -186,7 +186,11 @@ footer{
 
 .social-media-icon{
     display: flex;
-    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
     
     
 }
@@ -194,6 +198,7 @@ footer{
     font-size: 17px;
     color: white;
     list-style: none;
+    text-align: center;
     
 }
 
