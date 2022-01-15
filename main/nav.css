@@ -24,8 +24,12 @@ li{
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    nav ul{
+        padding-left: 0px;
+    }
     li{
         padding-right: 10px;
-        font-size: 14px;
+        font-size: 12px;
     }
 }

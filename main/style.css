@@ -3,7 +3,7 @@
 /* font */
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 5%;
+    margin: 2%;
     padding: 0;
 }
 
@@ -27,7 +27,7 @@ body{
     margin-bottom: 0px;
 }
 
-.header-button{
+.header-button, a{
     color: white;
     font-size: 16px;
     font-weight: 600;
@@ -35,6 +35,8 @@ body{
     padding: 10px 24px;
     border: none;
     border-radius: 41px;
+    text-decoration: none;
+    
 }
 
 /* .header-images{
@@ -47,13 +49,14 @@ body{
 .all-products h2{
     font-weight: 600;
     font-size: 28px;
-    text-align: center;
+    
     margin-top: 100px;
 }
 
 .collection{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
 }
 .all-collection{
     margin-bottom: 40px;
@@ -73,7 +76,7 @@ border-radius: 5px;
 
 
 .products-image img{
-/* width: 100%; */
+width: 100%;
 }
 .products-price h3{
     margin-top: 6px;
@@ -93,11 +96,23 @@ border-radius: 5px;
     margin: 0;
 }
 
-/* .see-more{
-    margin-left: 1095px;
+.see-more{
+    margin-left: 88%;
     margin-top: 0px;
-    margin-bottom: 40px;
-} */
+    margin-bottom: 5%;
+}
+
+.see-more, .see{
+    font-weight: bold;
+    font-size: 16px;
+    color: rgba(224, 44, 109, 0.87);
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    
+}
+
 /* footer style */
 
 footer{
@@ -157,6 +172,10 @@ footer{
 
     .collection {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .see-more{
+        margin-left: 250px;
     }
 }
 
